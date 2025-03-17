@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>项目管理系统 - 新建/编辑任务</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style> /* ... (上面定义的通用样式) ... */ </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">新建任务</h1>
+
+        <form>
+            <div class="mb-3">
+                <label for="project" class="form-label">所属项目</label>
+                <select class="form-select" id="project">
+                    <option value="">请选择</option>
+                    <option value="1">产品研发项目 v1.0</option>
+                    <option value="2">春季市场推广活动</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="name" class="form-label">任务名称</label>
+                <input type="text" class="form-control" id="name" placeholder="输入任务名称">
+            </div>
+            <div class="mb-3">
+                <label for="description" class="form-label">任务描述</label>
+                <textarea class="form-control" id="description" rows="3" placeholder="输入任务描述"></textarea>
+            </div>
+            <div class="mb-3">
+                <label for="responsiblePerson" class="form-label">负责人</label>
+                <select class="form-select" id="responsiblePerson">
+                    <option value="">请选择</option>
+                    <option value="1">张三</option>
+                    <option value="2">李四</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="dueDate" class="form-label">截止日期</label>
+                <input type="date" class="form-control" id="dueDate">
+            </div>
+            <button type="submit" class="btn btn-primary"><i class="fas fa-save me-2"></i> 保存任务</button>
+            <a href="/tasks" class="btn btn-secondary"><i class="fas fa-ban me-2"></i> 取消</a>
+        </form>
+    </div>
+</body>
+</html>
