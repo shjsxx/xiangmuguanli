@@ -2,6 +2,9 @@
 
 项目管理系统旨在为个人和团队提供高效便捷的项目管理解决方案。用户可以在系统上轻松创建和组织项目，详细记录项目类型、内容，并灵活设定子项目层级结构。系统支持明确项目负责人，设定清晰的开始和完成日期，确保项目进度可控。此外，系统还具备智能的临期提醒功能，帮助用户及时关注项目和任务的关键时间节点，避免延期。无论是个人任务规划还是团队协作管理，这款系统都能有效提升项目执行效率和管理水平。
 ![image](https://github.com/user-attachments/assets/19789953-8ef2-4d2b-a09c-3d556e9b24be)
+![image](https://github.com/user-attachments/assets/c565e082-3d8d-4a26-811b-54c42b4b9561)
+![image](https://github.com/user-attachments/assets/f16edb74-2a0f-4b3f-92d8-b83f049a3601)
+
 
 #### 软件架构
 ![输入图片说明](https://foruda.gitee.com/images/1742215888257689773/dff3179f_1982398.png "屏幕截图")
